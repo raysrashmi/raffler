@@ -1,0 +1,6 @@
+PODS:
+  - NanoStore (2.0.1)
+
+DEPENDENCIES:
+  - NanoStore (~> 2.0.1)
+  - NanoStore (~> 2.0.1)
