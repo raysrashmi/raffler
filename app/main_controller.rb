@@ -39,9 +39,7 @@ class MainController < UITableViewController
 
   def tableView(tableView,commitEditingStyle:editingStyle ,forRowAtIndexPath:indexPath)
     if(editingStyle == UITableViewCellEditingStyleDelete)
-      p"========"
       Choice.all.delete_at(indexPath.row)
-      p"-------------------"
   		tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation:UITableViewRowAnimationFade)
   	end
   end
